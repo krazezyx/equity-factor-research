@@ -32,6 +32,7 @@ Dollar-neutral long-short portfolio built with cvxpy. Maximises factor exposure 
 Volatility targeted at 10% annualised. Turnover capped at 20% per rebalance to control market impact. Transaction costs modelled at 5bps round-trip applied in performance attribution.
 
 ## Project Structure
+```
 equity-factor-research/
 ├── data/           # data ingestion, cleaning and storage
 ├── factors/        # factor signal construction and IC analysis
@@ -43,6 +44,7 @@ equity-factor-research/
 ├── config.py       # settings for data, factors, portfolio and API
 ├── .env.example    # API credential template
 └── requirements.txt
+```
 
 ## Stack
 Python 3.11, pandas, numpy, scipy, cvxpy, scikit-learn, statsmodels, yfinance, alphalens-reloaded, pyfolio, Alpaca Markets API
